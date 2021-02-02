@@ -1,0 +1,20 @@
+{
+    "id": "arcondicionado",
+    "nome": "Ar Condicionado de Janela XPTO",
+    "preco": 1127,
+    "descricao":"O Ar condicionado de janela é perfeitop para quem buscar inovação e versatilidade. Moderno e eficiente possui sistema de renovação de ar, permitindo a troca do ar dissipando odores do ambiente. Além disso, conta com dois níveis de velocidade e classificação energética A.",
+    "estoque": 4,
+    "img":"./assets/api/produtos/arcondicionado/arcondicionado2.png",
+    "avaliacoes": [
+        {
+            "nome": "Lucas Trindade",
+            "estrelas": 5,
+            "comentario": "Gostei muito do produto"
+        },
+        {
+            "nome": "Vinicius Moreira",
+            "estrelas": 2,
+            "comentario": "Produto ineficiente"
+        }
+    ] 
+}

@@ -1,0 +1,20 @@
+{
+    "id": "smarttv",
+    "nome": "Smart TV 43 polegadas XPTO",
+    "preco": 1999,
+    "descricao":"HDR para brilho e contraste para você aproveitar seu programa tanto nas cenas mais escuras quanto nas de alta luminosidade. Acesse suas músicas, filmes, notícias, jogos e redes sociais tudo em uma unica tela com o sistema operacional. Explore diversos aplicativos incluindo o Netflix ou se preferir pode usar o recurso Espelhamento de Tela para acessar conteúdos do seu smatphone direto na tela da TV.",
+    "estoque": 4,
+    "img":"./assets/api/produtos/smarttv/smarttv2.jpg",
+    "avaliacoes": [
+        {
+            "nome": "Lucas trindade",
+            "estrelas": 5,
+            "comentario": "Não tem contra, adorei a imagem o design recomendo"
+        },
+        {
+            "nome": "Marcelo Silva",
+            "estrelas": 5,
+            "comentario": "Ótimo produto, ótima qualidade "
+        }
+    ] 
+}

@@ -1,0 +1,20 @@
+{
+    "id": "smartphone",
+    "nome": "SmartPhone XPTO Dual Chip",
+    "preco": 2690,
+    "descricao":"Proporciona potência para tudo que importa. Isso significa ter um sistema de câmera tripla para capturar o movimento de todas as maneiras possíveis e tecnologia Quad Pixel para fotos nítidas em situação de pouca luz. Com processador Core de 2,0 GHz alterne entre varios apps abertos em um piscar de olhos graças aos 4GB de memória.",
+    "estoque": 3,
+    "img":"./assets/api/produtos/smartphone/smartphonefoto.jpg",
+    "avaliacoes": [
+        {
+            "nome": "Luciano",
+            "estrelas": 1,
+            "comentario": "Péssimo produto, deu problema no primeiro dia"
+        },
+        {
+            "nome": "Marcelo Silva",
+            "estrelas": 2,
+            "comentario": "Melhor celular que já comprei "
+        }
+    ] 
+}
