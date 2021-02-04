@@ -96,6 +96,8 @@ export default {
             alertaAtivo: false,
         }
     },
+   
+    
 
    /* mounted() {
         
@@ -140,21 +142,21 @@ export default {
     
     methods: {
       /*  fetchProdutos() {
-            fetch("https://run.mocky.io/v3/316f3c9f-6224-4ba1-9128-137e5cd62bc3")
+            fetch("https://run.mocky.io/v3/73a5d1e2-e3bf-4491-a367-c5196eabd179")
             .then(r => r.json())
             .then(r => {
                 this.produtos = r;
             })
         },
         fetchProduto(id) {
-           fetch(`./api/produtos/${id}/dados.json`)
+           fetch(`https://run.mocky.io/v3/73a5d1e2-e3bf-4491-a367-c5196eabd179/${id}`)
             .then(r => r.json())
             .then(r => {
                 this.produto = r;
             })            
         },
-        
         */
+        
 
       /*  mounted(){
             this.fetchProdutos();
@@ -163,14 +165,14 @@ export default {
 
         
         async fetchProdutos() {
-            await axios.get('https://run.mocky.io/v3/1a724142-9ae6-46cd-86cd-3ddffc589228')
+            await axios.get('https://run.mocky.io/v3/b007c79d-ea23-4fcc-9c5c-c0e3c62925c2')
             .then(response => {
             console.log(response.data)
             this.produtos = response.data
             }); 
         },
-        async fetchProduto(id){
-            const resposta = await axios.get(`./assets/api/produtos/${id}/dados.json`)
+        async fetchProduto(){
+            const resposta = await axios.get(`https://run.mocky.io/v3/b007c79d-ea23-4fcc-9c5c-c0e3c62925c2`)
             if(resposta.status === 200) {
                 this.produto = resposta.data
             }
@@ -262,6 +264,7 @@ export default {
     },
     created() {
         this.fetchProdutos();
+        this.fetchProduto();
         this.checarLocalStorage();
     }
 
